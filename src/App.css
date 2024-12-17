@@ -1,7 +1,8 @@
 /* Mengatur tampilan body */
 
 body {
-    font-family: 'Poppins';
+    font-family: Poppins;
+    /* Menambahkan font Poppins */
     margin: 0;
     padding: 0;
     background-color: #000;
@@ -53,7 +54,6 @@ body {
 
 .text-white {
     color: #fff;
-    /* Warna putih */
     font-size: 1.5rem;
 }
 
@@ -85,4 +85,25 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+
+/* Media Queries untuk responsivitas */
+
+@media (max-width: 768px) {
+    .text-yellow {
+        font-size: 2.5rem;
+        font-family: Poppins;
+        /* Ukuran teks kuning lebih kecil pada layar kecil */
+    }
+    .text-white {
+        font-size: 1.25rem;
+        font-family: Poppins;
+        /* Ukuran teks putih lebih kecil pada layar kecil */
+    }
+    /* Jika diperlukan, sesuaikan ukuran font lainnya di sini */
+    .main-container {
+        padding: 1rem;
+        /* Memberikan sedikit padding pada layar kecil */
+    }
 }

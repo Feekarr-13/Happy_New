@@ -1,0 +1,88 @@
+/* Mengatur tampilan body */
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* Latar belakang hitam untuk kontras */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /* Agar tidak ada elemen yang keluar dari layar */
+}
+
+
+/* Mengatur kontainer utama dengan flexbox untuk memposisikan konten di tengah */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* Mengatur partikel kembang api */
+
+.particles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    /* Membuat partikel mengisi seluruh layar */
+}
+
+
+/* Kelas untuk teks dengan warna kuning */
+
+.text-yellow {
+    color: #ffcc00;
+    font-size: 3.5rem;
+}
+
+
+/* Kelas untuk teks dengan warna putih */
+
+.text-white {
+    color: #fff;
+    /* Warna putih */
+    font-size: 1.5rem;
+}
+
+
+/* Menebalkan teks */
+
+.font-bold {
+    font-weight: bold;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* Z-index untuk memastikan elemen tetap di atas */
+
+.z-50 {
+    z-index: 50;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+
+/* Menjaga teks tetap di tengah */
+
+.text-center {
+    text-align: center;
+}
